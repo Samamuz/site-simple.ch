@@ -1,6 +1,5 @@
-site-simple.ch
+# site-simple.ch
 
----
 
 ## Présentation
 
