@@ -62,14 +62,6 @@ site-simple.ch/
 * Vérification des liens et formulaires
 * Sauvegardes périodiques
 
-## Licence
-
-À définir (ex. MIT, propriétaire, etc.).
-
 ## Contact
 
 Pour toute question ou suggestion, veuillez utiliser le formulaire de contact disponible sur **site-simple.ch**.
-
----
-
-*README généré comme base de travail.*
