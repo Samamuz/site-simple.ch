@@ -1,8 +1,5 @@
 # site-simple.ch
 
-> **README (modèle à adapter)**
-> Ce document présente le projet **site-simple.ch**. Les sections peuvent être complétées ou ajustées selon les fonctionnalités réelles du site.
-
 ---
 
 ## Présentation
