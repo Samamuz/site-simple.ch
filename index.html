@@ -53,8 +53,40 @@
     <link rel="icon" type="image/png" sizes="512x512" href="favicon/web-app-manifest-512x512.png">
 
 
-    <!-- Longue feuille de styles inline : différée pour réduire le blocage initial -->
-    <style id="deferred-styles" media="print">
+    <!-- Styles critiques inline pour chargement immédiat -->
+    <style>
+        /* Loading state simple */
+        .page-loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            transition: opacity 0.3s ease;
+        }
+        .page-loader.loaded {
+            opacity: 0;
+            pointer-events: none;
+        }
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #000;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+    <style id="critical-styles">
         /* Utiliser Montserrat partout */
         body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         body, html {
@@ -657,30 +689,31 @@
     #pricing .af-row-padding .af-col { display: block; }
     #pricing .af-col .af-ul.af-card { display: block; flex: none; }
 }
+
+        /* Optimisation rendu : sections hors écran initial */
+        #work, #contact {
+            content-visibility: auto;
+            contain-intrinsic-size: 800px;
+        }
     </style>
 
-    <!-- Script léger pour activer les styles différés après le load (ou asap) -->
+    <!-- Script pour masquer le loader une fois la page chargée -->
     <script>
-        (function(){
-            function enableDeferredStyles(){
-                try {
-                    var s = document.getElementById('deferred-styles');
-                    if (s && s.media && s.media !== 'all') s.media = 'all';
-                } catch(e){}
+        window.addEventListener('load', function() {
+            const loader = document.getElementById('page-loader');
+            if (loader) {
+                loader.classList.add('loaded');
+                setTimeout(function() { loader.style.display = 'none'; }, 300);
             }
-            // tenter d'appliquer rapidement sans bloquer : RAF + fallback timeout + load event
-            if (window.requestAnimationFrame) {
-                window.requestAnimationFrame(function(){
-                    setTimeout(enableDeferredStyles, 300);
-                });
-            } else {
-                window.addEventListener('load', enableDeferredStyles);
-                setTimeout(enableDeferredStyles, 1000);
-            }
-        })();
+        });
     </script>
 </head>
 <body>
+    <!-- Loader de page -->
+    <div id="page-loader" class="page-loader">
+        <div class="spinner"></div>
+    </div>
+
     <!-- Barre de navigation -->
     <div class="af-top">
         <div class="af-bar af-white af-card" id="myNavbar">
@@ -808,7 +841,7 @@
     <!-- 2) TRAVAUX -->
     <div class="af-container"id="work" style="padding: 25px;">
         <h3 class="af-center section-title">NOS TRAVAUX</h3>
-        <p class="af-center af-large" style="margin-bottom:16px;">Quelques exemples de ce que nous accomplissons pour nos clients :</p>
+        <p class="af-center af-large" style="margin-bottom:16px;">Quelques exemples de ce que nous sommes capable d'accomplir :</p>
         <div style="margin-top:8px">
             <!-- Slideshow NOS TRAVAUX -->
             <div class="slideshow-container">
