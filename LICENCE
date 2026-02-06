@@ -1,0 +1,97 @@
+================================================================================
+                    LICENCE PROPRIÉTAIRE — TOUS DROITS RÉSERVÉS
+================================================================================
+
+Copyright © 2026 Samuel BARMAN. Tous droits réservés.
+
+1. AVIS IMPORTANT
+Ce dépôt et l'ensemble de son contenu (y compris, sans s'y limiter, le code source, la structure du projet, le design, les textes, les images, les logos, et tout autre élément) sont protégés par le droit d'auteur et, le cas échéant, par d'autres droits de propriété intellectuelle.
+
+2. DÉFINITIONS
+- « Projet » désigne l'ensemble des fichiers, codes, contenus et éléments présents dans ce dépôt.
+- « Évaluation personnelle » désigne la consultation du code à titre strictement privé, sans extraction, réutilisation ou partage, dans le seul but de comprendre le fonctionnement du projet.
+- « Usage commercial » désigne toute utilisation visant un gain financier direct ou indirect.
+
+3. AUTORISATION LIMITÉE
+Sous réserve du respect des conditions ci-dessous, vous êtes autorisé(e) à consulter ce code et à exécuter l'application uniquement à des fins d'évaluation personnelle et non commerciale. Cette autorisation est révocable à tout moment et ne constitue en aucun cas un transfert de droits.
+
+4. INTERDICTIONS
+Sauf autorisation écrite préalable de l'auteur, il est strictement interdit de :
+- copier, reproduire, ou dupliquer tout ou partie de ce projet ;
+- modifier, adapter, traduire, ou créer des œuvres dérivées ;
+- distribuer, publier, ou mettre à disposition (y compris via un dépôt public, un site web, ou un store d'applications) ;
+- utiliser tout ou partie de ce projet à des fins commerciales ;
+- supprimer ou altérer les mentions de droits d'auteur ou de propriété ;
+- effectuer de l'ingénierie inverse, décompiler ou désassembler le projet ;
+- utiliser le projet pour entraîner des modèles d'intelligence artificielle.
+
+5. RÉSILIATION
+Tout manquement aux conditions de cette licence entraîne la résiliation automatique et immédiate de vos droits. En cas de résiliation, vous devez cesser immédiatement toute utilisation du projet et détruire toute copie en votre possession.
+
+6. DEMANDES D'AUTORISATION
+Pour toute demande d'utilisation, de licence, ou d'autorisation :
+📧 pro.samuelbarman@gmail.com
+
+7. LOGICIELS ET CONTENUS TIERS
+Les dépendances, bibliothèques, polices, images, ou autres éléments tiers éventuellement utilisés dans ce projet restent soumis à leurs propres licences et conditions. Cette licence ne vous accorde aucun droit sur ces éléments au-delà de ce que prévoient leurs licences respectives.
+
+8. ABSENCE DE GARANTIE
+Ce projet est fourni « EN L'ÉTAT », sans garantie d'aucune sorte, expresse ou implicite, y compris, mais sans s'y limiter, les garanties de qualité marchande, d'adéquation à un usage particulier et d'absence de contrefaçon.
+
+9. LIMITATION DE RESPONSABILITÉ
+En aucun cas l'auteur ne pourra être tenu responsable de tout dommage direct, indirect, accessoire, spécial, exemplaire ou consécutif (y compris, mais sans s'y limiter, la perte de données, l'interruption d'activité, ou tout autre préjudice commercial) résultant de l'utilisation ou de l'impossibilité d'utiliser ce projet.
+
+10. DIVISIBILITÉ
+Si une disposition de cette licence est jugée invalide ou inapplicable, les autres dispositions resteront pleinement en vigueur.
+
+11. LOI APPLICABLE ET JURIDICTION
+Cette licence est régie par le droit suisse. Tout litige relatif à cette licence sera soumis à la compétence exclusive des tribunaux du canton de Vaud, Suisse.
+
+================================================================================
+                    PROPRIETARY LICENSE — ALL RIGHTS RESERVED
+================================================================================
+
+Copyright © 2026 Samuel BARMAN. All rights reserved.
+
+1. IMPORTANT NOTICE
+This repository and all of its contents (including, but not limited to, source code, project structure, design, text, images, logos, and any other elements) are protected by copyright and, where applicable, other intellectual property rights.
+
+2. DEFINITIONS
+- "Project" refers to all files, code, content, and elements present in this repository.
+- "Personal evaluation" refers to strictly private consultation of the code, without extraction, reuse, or sharing, solely for the purpose of understanding how the project works.
+- "Commercial use" refers to any use aimed at direct or indirect financial gain.
+
+3. LIMITED PERMISSION
+Subject to compliance with the conditions below, you are permitted to view this code and run the application solely for personal, non-commercial evaluation purposes. This permission is revocable at any time and does not constitute a transfer of rights in any way.
+
+4. RESTRICTIONS
+Unless prior written permission is obtained from the author, it is strictly prohibited to:
+- copy, reproduce, or duplicate all or part of this project;
+- modify, adapt, translate, or create derivative works;
+- distribute, publish, or make available (including via a public repository, website, or app store);
+- use all or part of this project for commercial purposes;
+- remove or alter copyright or proprietary notices;
+- reverse engineer, decompile, or disassemble the project;
+- use the project to train artificial intelligence models.
+
+5. TERMINATION
+Any breach of the conditions of this license will result in automatic and immediate termination of your rights. Upon termination, you must immediately cease all use of the project and destroy any copies in your possession.
+
+6. PERMISSION REQUESTS
+For any requests regarding use, licensing, or permission:
+📧 pro.samuelbarman@gmail.com
+
+7. THIRD-PARTY SOFTWARE AND CONTENT
+Any dependencies, libraries, fonts, images, or other third-party elements used in this project remain subject to their own licenses and terms. This license does not grant you any rights to such elements beyond what their respective licenses provide.
+
+8. DISCLAIMER OF WARRANTY
+This project is provided "AS IS", without warranty of any kind, express or implied, including, but not limited to, the warranties of merchantability, fitness for a particular purpose, and non-infringement.
+
+9. LIMITATION OF LIABILITY
+In no event shall the author be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, loss of data, business interruption, or any other commercial damages) arising out of the use or inability to use this project.
+
+10. SEVERABILITY
+If any provision of this license is held to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.
+
+11. GOVERNING LAW AND JURISDICTION
+This license shall be governed by Swiss law. Any dispute relating to this license shall be subject to the exclusive jurisdiction of the courts of the Canton of Vaud, Switzerland.
