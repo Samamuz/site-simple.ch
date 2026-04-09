@@ -1,3 +1,0 @@
-
-// FICHIER OBSOLÈTE
-export {};

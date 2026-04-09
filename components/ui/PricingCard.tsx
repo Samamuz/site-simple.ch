@@ -38,20 +38,21 @@ export const PricingCard: React.FC<PricingCardProps> = ({ item }) => {
   const rotateY180Class = "[transform:rotateY(180deg)]";
 
   return (
-    <div className={`relative h-full min-h-[500px] w-full ${perspectiveClass}`}>
-      <div 
+    <div className={`relative h-full w-full ${perspectiveClass}`}>
+      <div
         className={`
           relative w-full h-full transition-all duration-700 ease-in-out ${preserve3dClass}
+          grid [&>*]:[grid-area:1/1]
           ${isFlipped ? rotateY180Class : ''}
         `}
       >
         {/* --- FRONT FACE --- */}
-        <div 
+        <div
           className={`
-            absolute inset-0 w-full h-full ${backfaceHiddenClass}
+            w-full h-full ${backfaceHiddenClass}
             flex flex-col p-8 rounded-[4px] border
-            ${item.highlighted 
-              ? 'bg-white border-black shadow-xl z-10' 
+            ${item.highlighted
+              ? 'bg-white border-black shadow-xl z-10'
               : 'bg-neutral-50 border-neutral-200 hover:border-neutral-300 hover:shadow-lg'
             }
           `}
@@ -104,9 +105,9 @@ export const PricingCard: React.FC<PricingCardProps> = ({ item }) => {
         </div>
 
         {/* --- BACK FACE (Formulaire) --- */}
-        <div 
+        <div
           className={`
-            absolute inset-0 w-full h-full ${backfaceHiddenClass} ${rotateY180Class}
+            w-full h-full ${backfaceHiddenClass} ${rotateY180Class}
             flex flex-col p-8 rounded-[4px] bg-white border border-black shadow-xl
           `}
         >
